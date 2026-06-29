@@ -11,7 +11,7 @@ function ProjectCard({ project }: ProjectCardProps) {
             <p>{project.description}</p>
 
             <a href={project.github} target="_blank" rel="noreferrer">
-                Main GitHub Repository
+                GitHub Repository ↗
             </a>
 
             {project.sections.map((section) => (
@@ -20,7 +20,7 @@ function ProjectCard({ project }: ProjectCardProps) {
                     <p>{section.description}</p>
 
                     <a href={section.github} target="_blank" rel="noreferrer">
-                        View GitHub
+                        View GitHub ↗
                     </a>
                 </details>
             ))}

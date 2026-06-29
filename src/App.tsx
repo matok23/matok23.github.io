@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <nav className="navbar">
-        <h1>My Portfolio</h1>
+        <Link to="/"><h1>PORTFOLIO</h1></Link>
 
         <div>
           <Link to="/">Profile</Link>

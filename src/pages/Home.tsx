@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <section className="profile-page">
@@ -62,14 +64,12 @@ function Home() {
           CV (SVK) ↗
         </a>
 
-        <a
+        <Link
           className="cv-link"
-          href="/projects"
-        // target="_blank"
-        // rel="noreferrer"
+          to="/projects"
         >
           PROJECTS ↗
-        </a>
+        </Link>
       </div>
     </section>
   );

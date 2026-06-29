@@ -36,6 +36,22 @@ export const projects: Project[] = [
     ],
   },
   {
+    name: 'Smart Contract Vulnerability Detection',
+    description: 'Static analysis of smart contracts using different prompting techniques (COT, LFS, in-context learning, reflection...) and comparing with EVMbench tool.',
+    github: 'https://github.com/matok23/bakalarka',
+    sections: [
+      {
+        title: 'Paper',
+        github: 'https://github.com/matok23/bakalarka/blob/master/BP_VCP_MatejKotuc.pdf'
+      },
+      {
+        title: 'Framework',
+        description: 'Framework wrapped in Docker with launch instructions.',
+        github: 'https://github.com/matok23/bakalarka/tree/master/sc_vulnerability_detection'
+      }
+    ],
+  },
+  {
     name: 'Portfolio Website',
     description: 'My personal portfolio built with React and TypeScript.',
     github: 'https://github.com/matok23/matok23.github.io',

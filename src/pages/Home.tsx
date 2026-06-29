@@ -11,6 +11,12 @@ function Home() {
 
       <div className="profile-header">
         <h1>Bc. Matej Kotúč</h1>
+        <a
+          className="profile-email"
+          href="mailto:matokotuc@gmail.com"
+        >
+          matokotuc@gmail.com
+        </a>
         {/* <h2>Software Engineer</h2> */}
       </div>
 
@@ -20,7 +26,7 @@ function Home() {
       </div>
 
       <blockquote className="profile-quote">
-        "I enjoy building clean, responsive and user-friendly applications while continuously learning new technologies."
+        "I enjoy building applications, discovering capabilities of AI technology and continuously learning new skills."
       </blockquote>
 
 

@@ -1,6 +1,6 @@
 export type ProjectSection = {
   title: string;
-  description: string;
+  description?: string;
   github: string;
 };
 

@@ -15,14 +15,19 @@ function ProjectCard({ project }: ProjectCardProps) {
             </a>
 
             {project.sections.map((section) => (
-                <details key={section.title}>
-                    <summary>{section.title}</summary>
-                    <p>{section.description}</p>
-
+                !section.description ?
                     <a href={section.github} target="_blank" rel="noreferrer">
-                        View GitHub ↗
+                        {section.title} ↗
                     </a>
-                </details>
+                    :
+                    <details key={section.title}>
+                        <summary>{section.title}</summary>
+                        <p>{section.description}</p>
+
+                        <a href={section.github} target="_blank" rel="noreferrer">
+                            View ↗
+                        </a>
+                    </details>
             ))}
         </article>
     );

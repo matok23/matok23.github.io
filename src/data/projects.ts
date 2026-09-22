@@ -2,6 +2,28 @@ import type { Project } from "../types/projects";
 
 export const projects: Project[] = [
   {
+    name: 'Webpage for a local mayor candidate',
+    description: 'Created a simple static website for a local mayor candidate using React.',
+    github: 'https://github.com/matok23/erik-vrabel',
+    sections: [
+      {
+        title: 'Available online',
+        github: 'https://erikvrabel.sk/'
+      },
+    ],
+  },
+  {
+    name: 'Business evaluation tool',
+    description: 'Evaluation tool for small businesses using simple metrics. Available online with a graph and history of valuations.',
+    github: 'https://github.com/matok23/business_evaluation_tool',
+    sections: [
+      {
+        title: 'Available online',
+        github: 'https://business-evaluation-tool-frontend.onrender.com/'
+      },
+    ],
+  },
+  {
     name: 'Mobile Parking App',
     description: 'Mobile application to create, manage and reserve parking anywhere in advance.',
     github: 'https://github.com/matok23/zmabt',
